@@ -35,11 +35,11 @@ Please download the precomputed features of ModelNet40 and NTU2012 datasets from
 - [NTU2012_mvcnn_gvcnn_feature](https://drive.google.com/file/d/1Vx4K15bW3__JPRV0KUoDWtQX8sB-vbO5/view?usp=sharing)
 
 
-Extract above files and put them under any directory (`DATA_ROOT`) you like.
+Extract above files and put them under any directory (`$DATA_ROOT`) you like.
 
 ## 3D Object Classification Task
 
-We implement the HGNN, MultiHGNN, ResHGNN and ResMultiHGNN. You can change the `$model` and the layers `$layer`.
+We implement the `HGNN`, `MultiHGNN`, `ResHGNN` and `ResMultiHGNN`. You can change the `$model` and the layers `$layer`.
 
 ### Full Training Lables
 
@@ -99,5 +99,5 @@ optional arguments:
                         (default: False)
   --split-ratio SPLIT_RATIO
                         if set unzero, this is for Task: Stability Analysis,
-                        new total/train ratio (default: 
+                        new total/train ratio (default: 0)
 ```
