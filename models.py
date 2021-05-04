@@ -142,7 +142,7 @@ class ResMultiHGNN(nn.Module):
 #         # self.non_reg_params = list(chain.from_iterable(hgnn.non_reg_params for hgnn in self.hgnns))
 #         self.w = nn.Parameter(torch.FloatTensor([0.5]))
 #         self.conv_params = list(chain.from_iterable(hgnn.parameters() for hgnn in self.hgnns))
-#         # self.w = 0.6
+#         # self.w = 0.6 # nn.Parameter
 #         # self.args = args 
 #         # self.dense_layer = nn.Linear(nhid, nclass)
         

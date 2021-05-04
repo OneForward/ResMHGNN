@@ -1,6 +1,6 @@
 # ResMultiHGNN
 
-This repository contains the source code for the paper _Residual Enhanced Multi-Hypergraph Neural Network_.
+This repository contains the source code for the paper [_Residual Enhanced Multi-Hypergraph Neural Network_](https://arxiv.org/abs/2105.00490).
 
 
 ![](utils/MHGNNv2.svg)
@@ -101,3 +101,9 @@ optional arguments:
                         if set unzero, this is for Task: Stability Analysis,
                         new total/train ratio (default: 0)
 ```
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
