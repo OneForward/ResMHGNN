@@ -6,8 +6,18 @@ This repository contains the source code for the paper [_Residual Enhanced Multi
 ![](utils/MHGNNv2.svg)
 
 
+## Citation
 
+If you find this work useful in your research, please consider cite: 
 
+```bibtex
+@inproceedings{icip21-ResMHGNN,
+  title     = {Residual Enhanced Multi-Hypergraph Neural Network},
+  author    = {Huang, Jing and Huang, Xiaolin and Yang, Jie},
+  booktitle = {International Conference on Image Processing, {ICIP-21}},
+  year      = {2021}
+}
+```
 
 
 ## Getting Started
@@ -81,7 +91,7 @@ usage: ResMultiHGNN [-h] [--dataroot DATAROOT] [--dataname DATANAME]
 optional arguments:
   -h, --help            show this help message and exit
   --dataroot DATAROOT   the directary of your .mat data (default:
-                        /home/jing/data/HGNN)
+                        ~/data/HGNN)
   --dataname DATANAME   data name (ModelNet40/NTU2012) (default: NTU2012)
   --model-name MODEL_NAME
                         (HGNN, ResHGNN, MultiHGNN, ResMultiHGNN) (default:

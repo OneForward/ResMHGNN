@@ -2,7 +2,7 @@ import argparse
 
 def config():
     p = argparse.ArgumentParser("ResMultiHGNN", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    p.add_argument('--dataroot', type=str, default='/home/jing/data/HGNN', help='the directary of your .mat data')
+    p.add_argument('--dataroot', type=str, default='~/data/HGNN', help='the directary of your .mat data')
     p.add_argument('--dataname', type=str, default='NTU2012', help='data name (ModelNet40/NTU2012)')
     p.add_argument('--model-name', type=str, default='HGNN', help='(HGNN, ResHGNN, MultiHGNN, ResMultiHGNN)')
     p.add_argument('--nlayer', type=int, default=2, help='number of hidden layers')

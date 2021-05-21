@@ -21,7 +21,7 @@ torch.manual_seed(seed)
 
 
 # initialize parameters
-dataroot = path.Path(args.dataroot)
+dataroot = path.Path(args.dataroot).expanduser()
 datadir = dataroot / f'{args.dataname}_mvcnn_gvcnn.mat'
 model_name = args.model_name
 k_nearest = 10
