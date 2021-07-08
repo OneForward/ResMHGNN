@@ -3,7 +3,7 @@
 This repository contains the source code for the paper [_Residual Enhanced Multi-Hypergraph Neural Network_](https://arxiv.org/abs/2105.00490), accepted by ICIP 2021.
 
 
-![](utils/MHGNNv2.svg)
+![](utils/ResMHGNN.png)
 
 
 ## Citation
